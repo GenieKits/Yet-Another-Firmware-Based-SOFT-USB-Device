@@ -51,8 +51,8 @@ __dbg_init:
 
         ; allocate pins for UART1
         ;mov     #OSCCONL, w1
-        ;mov     #0x45, w2
-        ;mov     #0x67, w3
+        ;mov     #0x46, w2
+        ;mov     #0x57, w3
         ;mov.b   w2, [w1]
         ;mov.b   w3, [w1]
         ;bclr    OSCCON, #IOLOCK
